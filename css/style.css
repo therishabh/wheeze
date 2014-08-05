@@ -1,0 +1,494 @@
+@import url('bootstrap.css');
+@import url('component.css');
+@import url('fonts/walkway/walkway.css');
+@import url('fonts/webrupee/stylesheet.css');
+@import url('fonts/exo/exo.css');
+@import url('fonts/sensation-font/sensation.css');
+/*#002E5.A*/
+/*login panel css*/
+#login header {
+	-webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.4);
+	border-top: 4px solid #00478B;
+	height: 100px;
+	padding-top: 18px;
+}
+#login .logo p:nth-child(1) {
+	color: #00478B;
+	font-size: 3em;
+	font-family: 'WalkwayBoldRegular';
+	text-align: center;
+}
+#login .login-wrap {
+	padding-top: 4%;
+	padding-bottom: 3.5%;
+	padding-right: 3%;
+	border-left: 2px solid #00478B;
+	border-right: 2px solid #00478B;
+	border-bottom: 2px solid #00478B;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#login #lbl_username, #lbl_password {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.7em;
+	font-family: 'ExoRegular';
+	color: #555;
+}
+#login .login-panel input {
+	height: 40px;
+	width: 100% !important;
+	padding-left: 10px;
+	color: #00478B;
+	font-family: 'ExoRegular';
+}
+#login .login-panel input:focus{
+	border-top:3px solid #00478B;
+	border-bottom:3px solid #00478B;
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff;
+	outline: none;
+}
+#login .login-wrap .row:nth-child(2){
+	margin-top: 12px;
+}
+
+#login .login-btn-wrap {
+	padding-top: 2%;
+	margin-top: 1%;
+}
+#login .login-btn-wrap input[type='submit'] {
+	background: #00478B;
+	border: none;
+	border-radius: 6px;
+	box-shadow: none;
+	margin-right: 10px;
+	font-weight: lighter;
+	padding: 9px;
+	font-size: 17px;
+	color: #fff;
+	font-family: 'ExoRegular';
+}
+#login .login_error{
+	font-family: 'ExoRegular';
+	text-align: center;
+	font-size: 16px;
+	color: rgb(207, 7, 7);
+	padding-top: 15px;
+}
+#login .copyright{
+	padding-top: 30px;
+}
+#login .copyright a:hover {
+	color: #2ba6cb;
+}
+#login .copyright a {
+	color: #b1b1b1;
+	text-align: center;
+}
+/* // end login panel css*/
+
+body{
+	background: url('../img/background.png');
+}
+a{
+	text-decoration: none !important;
+}
+
+/*header section*/
+header.main {
+	-webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.4);
+	border-top: 4px solid #00478B;
+	height: 100px;
+}
+header.main .logo{
+	color: #00478B;
+	font-size: 3.5em;
+	font-family: 'WalkwayBoldRegular';
+	margin-top: 10px;
+	padding-left: 70px;
+}
+.refresh{
+	position: absolute;
+	top: 51px;
+	right: 30px;
+}
+.refresh img{
+	height: 54px;
+	cursor: pointer;
+}
+
+.admin-desc{
+	padding-left: 80px;
+}
+.admin-desc div:nth-child(1){
+	font-size: 18px;
+	color: #00478B;
+	font-family: 'ExoRegular';
+	text-align: left;
+	margin-top: 10px;
+}
+.admin-desc div:nth-child(2){
+	font-size: 15px;
+	color: #00478B;
+	font-family: 'ExoRegular';
+}
+
+.admin-desc div:nth-child(3) ul{
+	padding: 0px;
+	margin:0px;
+	margin-top: 5px;
+}
+.admin-desc div:nth-child(3) ul li{
+	display: inline-block;
+	font-size: 13px;
+	font-family: 'ExoRegular';
+	background: #00478B;
+	color: #fff;
+	padding:5px 15px;
+}
+/* // end header section*/
+.gm-style-iw h4{
+	font-family: 'ExoRegular';
+	font-size: 14px;
+}
+.rotate{
+	-webkit-transition: transform 1s linear;
+	-webkit-transform:transform-origin: center center;
+	-webkit-transform:transform-style: preserve-3D;
+	-webkit-transform: rotate(180deg);
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+
+.display-div{
+	margin-top: 25px;
+}
+.display-div div{
+	text-align: center;
+	font-size: 20px;
+	font-family:'ExoRegular';
+	padding: 5px;
+	margin-top: 10px;
+	background: #00478B;
+	color: #fff;
+	cursor: pointer;
+}
+.setting-div div:nth-child(1)
+{
+	text-align: center;
+	font-size: 30px;
+	font-family:'ExoRegular';
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #00478B;
+}
+.setting-div div:nth-child(2),.setting-div div:nth-child(3),.setting-div div:nth-child(4)
+{
+	margin-top: 10px;
+}
+.setting-div div:nth-child(2) input,.setting-div div:nth-child(3) input,.setting-div div:nth-child(4) input
+{
+	width: 100%;
+	padding: 18px;
+	font-size: 18px;
+	height: 46px;
+	font-family: 'ExoRegular';
+	color: #00478B;
+}
+.setting-div div:nth-child(5) input
+{
+	width: 100%;
+	padding: 12px;
+	font-size: 18px;
+	height: 46px;
+	font-family: 'ExoRegular';
+	margin-top: 10px;
+	background: #00478B;
+	color: #fff;
+	border: none;
+	text-align: center;
+}
+.setting-div div:nth-child(6){
+	font-family: 'ExoRegular';
+	text-align: center;
+	font-size: 16px;
+	color: rgb(207, 7, 7);
+	padding-top: 15px; 
+	font-weight: bold;
+}
+.setting-div div:nth-child(7){
+	font-family: 'ExoRegular';
+	text-align: center;
+	font-size: 16px;
+	color: rgb(29, 129, 4);
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.alert{
+	background: rgb(207, 7, 7) !important;
+}
+.result-div{
+width: 100%;
+overflow-y: auto;
+overflow-x: hidden;
+max-height: calc(100% - 142px);
+height: 100%;
+}
+.result-div .left-blog {
+margin-top: 10px;
+box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+}
+.result-div .top-label {
+background: #00478B;
+color: #fff;
+padding: 4px 33px;
+font-family: "Lato";
+font-size: 16px;
+}
+.bottom-label {
+padding: 4px 20px;
+cursor: pointer;
+}
+.left-side {
+background: #fff;
+border-right: 1px solid rgb(207, 207, 207);
+padding: 0px;
+}
+.left-side .driver-detail div{
+padding: 3px;
+font-size: 16px;
+font-family: 'ExoRegular';
+}
+.left-side .address div{
+padding: 3px;
+font-size: 15px;
+font-family: 'ExoRegular';
+}
+.left-side .top-label .taxi-code{
+	font-size: 15px;
+font-family: 'ExoRegular';
+}
+.left-side .top-label .taxi-number{
+	font-size: 15px;
+font-family: 'ExoRegular';
+text-align: right;
+}
+
+.left-side .search-bar input{
+	width:100%;
+	height: 40px;
+	border-radius: 0px;
+	outline: none;
+	font-size: 15px;
+	color: #00478B;
+	font-family: 'ExoRegular';
+	background: url(../img/search.png) no-repeat 98% 50%;
+	padding-left: 20px;
+	background-size: 20px;
+	padding-right: 34px
+}
+.right-side .display-section {
+margin: 20px 18px 10px 8px;
+background: #fff;
+border: 1px solid rgb(207,207,207);
+box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+}
+.right-side .display-section .taxi-heading {
+	/* height: 30px; */
+	border-bottom: 1px solid rgb(207, 207, 207);
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 15px;
+	font-family: 'ExoRegular';
+	color: #00478B;
+}
+.taxi-heading .success-msg {
+color: rgb(21, 167, 21);
+font-weight: normal;
+text-align: left;
+font-size: 15px;
+}
+.right-side .edit-btn {
+height: 22px;
+width: 22px;
+cursor: pointer;
+}
+.right-side .edit {
+display: none;
+text-align: right;
+}
+.taxi-right-div{
+	max-height: calc(100% - 199px);
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 20px;
+	font-family: 'ExoRegular';
+	font-size: 16px;
+}
+.left-side .error-msg
+{
+	font-family: 'ExoRegular';
+	text-align: center;
+	font-size:23px;
+	color: rgb(207, 7, 7);
+	padding-top: 38px; 
+	font-weight: bold;
+}
+.taxi-right-div .label-text{
+	font-family: 'ExoRegular';
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'ExoRegular';
+	color: #00478B;
+}
+.taxi-right-div input{
+	font-family: 'ExoRegular';
+	border-radius: 0;
+}
+.taxi-right-div .submit{
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+	height: 36px;
+	font-family: 'ExoRegular';
+	margin-top: 10px;
+	background: #00478B;
+	color: #fff;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*preloader..*/
+
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/loader.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+/*end preloader.*/
+
+
+section .right-side{
+	margin-top: 33px;
+}
+section .right-side img{
+	height: 100px;
+}
+section .right-side .display-right span{
+	padding: 12px;
+	border-radius: 150px;
+	color: #fff;
+	position: absolute;
+	top: 18px;
+	left: 0px;
+	font-family: 'ExoRegular';
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: bold;
+}
+section .right-side .display-right span:nth-child(1){
+	left: 0px;
+	background: #00478B;
+}
+section .right-side .display-right span:nth-child(2){
+	left: 71px;
+	background: #B11515;
+}
+
+.record-heading{
+	color:#00478B;
+	font-family: 'ExoRegular';
+	font-size: 25px;
+	border-bottom: 4px double #00478B;
+	text-align: center;
+	margin-top: 30px;
+
+}
+.record .search-bar{
+	margin-top: 20px;
+}
+.record .search-bar input{
+	border-radius: 0px;
+	font-size: 20px;
+	height: 50px;
+	font-family: 'ExoRegular';
+	color:#00478B;
+}
+.record table{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.record table thead tr{
+	background: #00478B;
+	color: #fff;
+	font-family: 'ExoRegular';
+}
+.record table thead tr td{
+	padding: 6px;
+	border-right: 1px solid #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.record table tbody tr:nth-child(even){
+	background: #fff;
+	color: #00478B;
+	font-family: 'ExoRegular';
+}
+.record table tbody tr:nth-child(odd){
+	background: #ddd;
+	color: #00478B;
+	font-family: 'ExoRegular';
+}
+.record table tbody tr.new{
+	background:rgb(142, 213, 114) !important;
+	color: #00478B;
+	font-family: 'ExoRegular';
+}
+.record table tbody tr td{
+	padding: 6px;
+	border-right: 1px solid #fff;
+	text-align: center;
+}
+.record .error-msg
+{
+	font-family: 'ExoRegular';
+	text-align: center;
+	font-size:23px;
+	color: rgb(207, 7, 7);
+	padding-top: 38px; 
+	font-weight: bold;
+}
